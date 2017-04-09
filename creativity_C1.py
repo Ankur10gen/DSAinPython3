@@ -70,27 +70,44 @@ def c121_EOFError():
 
 def c122_dot_prod(a, b):
     c = []
-    for i in range(len(a)): # in ques len(a) is n
-        c.append(a[i]*b[i])
+    for i in range(len(a)):  # in ques len(a) is n
+        c.append(a[i] * b[i])
     return c
 
+
 def c123_index_oob():
-    list1 = [1,2,3,4]
+    list1 = [1, 2, 3, 4]
     try:
         list1[6] = "ZOMBIE"
     except IndexError:
         print("Don’t try buffer overflow attacks in Python!")
 
+
 def c124_number_of_vowels(givenString):
     cnt = 0
     for i in givenString.lower():
-        if i in ['a','e','i','o','u']:
+        if i in ['a', 'e', 'i', 'o', 'u']:
             cnt = cnt + 1
     return cnt
 
+
 def c124_number_of_vowels_alt(givenString):
     import re
-    return len(re.findall(re.compile('[aeiou]'),givenString.lower()))
+    return len(re.findall(re.compile('[aeiou]'), givenString.lower()))
+
+
+def c125_remove_punctuation(givenString):
+    import re
+    return re.sub(r'[^a-zA-Z0-9_\s]', '', givenString)
+
+
+def c126_arithmetic(a, b, c):
+    return a + b == c or a == b - c or a * b == c
+
+
+def c128_norm(v, p=2):  # p-norm vector of vector
+    return sum([x ** p for x in v]) ** (1 / p)
+
 
 print(c113_reverse_list_of_nums([1, 2, 4, 5, 3]))
 print(c114_has_odd_products([1, 2, 3]))
@@ -123,10 +140,33 @@ print(c120_my_shuffle([1, 2, 3, 4, 5]))  # Works like shuffle() except that this
 
 # c121_EOFError()
 
-print(c122_dot_prod([1,2,3],[4,5,6]))
+print(c122_dot_prod([1, 2, 3], [4, 5, 6]))
 
 c123_index_oob()
 
 print(c124_number_of_vowels('Ankur Raina'))
 
 print(c124_number_of_vowels_alt('Ankur Raina'))
+
+print(c125_remove_punctuation("Let's try, Mike."))
+
+print(c126_arithmetic(2, 3, 6))
+
+
+def factors(n):  # generator that computes factors
+    k = 1
+    while k * k < n:  # while k < sqrt(n)
+        if n % k == 0:
+            yield k
+            yield n // k
+        k += 1
+    if k * k == n:  # special case if n is perfect square
+        yield k
+
+
+for i in sorted(factors(100)):  # c127 not sure if this was the expected thing but it provides the expected result
+    print(i, sep=' ', end=' ')
+
+print('\n')
+
+print(c128_norm([4, 3]))
