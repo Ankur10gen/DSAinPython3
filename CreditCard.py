@@ -15,7 +15,7 @@ class CreditCard:
 
     def get_customer(self):
         """Return: Name of customer"""
-        return self._account
+        return self._customer
 
     def get_bank(self):
         """Return: Bank name"""
@@ -47,3 +47,6 @@ class CreditCard:
     def make_payment(self,amount):
         """Process customer payment : Reduce Balance"""
         self._liability -= amount
+
+pcc1 = CreditCard('Ankur Raina','CITI','111122223333',100000)
+print(pcc1._limit) # Access for _varname is Public (compared to Java Access Modifier) i.e. it is accessible outside the class directly without calling a method. It is not a good practice thoug
