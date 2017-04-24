@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6c61db1-ad29-47dd-9c06-859dd667412f" name="Default" comment="Creativity Section for Chap 1 Still in Progress Working on Q25">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/RangeImplement.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SequenceIterator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Progressions/ArithmeticProgression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Progressions/FibonacciProgression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Progressions/GeometricProgression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Progressions/Progression.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Progressions/TestAP.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Progressions/TestProgression.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/DSAinPython3.iml" afterPath="$PROJECT_DIR$/.idea/DSAinPython3.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,32 +25,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.1/python_stubs/776880377/builtins.py">
+      <file leaf-file-name="Progression.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Progressions/Progression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6432">
-              <caret line="4408" column="12" lean-forward="false" selection-start-line="4408" selection-start-column="12" selection-end-line="4408" selection-end-column="12" />
+            <state relative-caret-position="263">
+              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SequenceIterator.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SequenceIterator.py">
+      <file leaf-file-name="TestProgression.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Progressions/TestProgression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="90">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArithmeticProgression.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Progressions/ArithmeticProgression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RangeImplement.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/RangeImplement.py">
+      <file leaf-file-name="GeometricProgression.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Progressions/GeometricProgression.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+            <state relative-caret-position="195">
+              <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FibonacciProgression.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Progressions/FibonacciProgression.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestAP.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Progressions/TestAP.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,6 +95,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jupyter Notebook" />
+        <option value="Python Unit Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -66,6 +107,9 @@
     <replaceStrings>
       <replace>_liability</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/.idea</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,18 +121,29 @@
         <option value="$PROJECT_DIR$/creativity.py" />
         <option value="$PROJECT_DIR$/temp.ipynb" />
         <option value="$PROJECT_DIR$/creativity_C1.py" />
-        <option value="$PROJECT_DIR$/CreditCard.py" />
         <option value="$PROJECT_DIR$/TestCaseCreditCard.py" />
         <option value="$PROJECT_DIR$/Vector.py" />
         <option value="$PROJECT_DIR$/SequenceIterator.py" />
         <option value="$PROJECT_DIR$/RangeImplement.py" />
+        <option value="$PROJECT_DIR$/.idea/PredatoryCreditCard.py" />
+        <option value="$PROJECT_DIR$/TestPredatoryCCClass.py" />
+        <option value="$PROJECT_DIR$/.idea/TestPredatoryCC.py" />
+        <option value="$PROJECT_DIR$/PredatoryCreditCard.py" />
+        <option value="$PROJECT_DIR$/CreditCard.py" />
+        <option value="$PROJECT_DIR$/TestPredatoryCC.py" />
+        <option value="$PROJECT_DIR$/Progressions/Progression.py" />
+        <option value="$PROJECT_DIR$/Progressions/TestAP.py" />
+        <option value="$PROJECT_DIR$/Progressions/TestProgression.py" />
+        <option value="$PROJECT_DIR$/Progressions/ArithmeticProgression.py" />
+        <option value="$PROJECT_DIR$/Progressions/GeometricProgression.py" />
+        <option value="$PROJECT_DIR$/Progressions/FibonacciProgression.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="771" />
+    <option name="x" value="87" />
     <option name="y" value="23" />
-    <option name="width" value="669" />
+    <option name="width" value="1353" />
     <option name="height" value="781" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -120,14 +175,35 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DSAinPython3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DSAinPython3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Progressions" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -141,92 +217,86 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.SequenceIterator">
-    <configuration default="false" name="creativity_C1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.FibonacciProgression">
+    <configuration default="false" name="Unittests for TestProgression.TestProgression.test_print_progression" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Progressions" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DSAinPython3" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestProgression.TestProgression.test_print_progression&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests for TestAP.TestArithmeticProgression.test_print_progression" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Progressions" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DSAinPython3" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;TestAP.TestArithmeticProgression.test_print_progression&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ArithmeticProgression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Progressions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DSAinPython3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/creativity_C1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Progressions/ArithmeticProgression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="CreditCard" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="GeometricProgression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Progressions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DSAinPython3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CreditCard.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Progressions/GeometricProgression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="TestCaseCreditCard" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="FibonacciProgression" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Progressions" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="DSAinPython3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCaseCreditCard.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Vector" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DSAinPython3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Vector.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="SequenceIterator" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DSAinPython3" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/SequenceIterator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Progressions/FibonacciProgression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,19 +367,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.creativity_C1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.CreditCard" />
-      <item index="2" class="java.lang.String" itemvalue="Python.TestCaseCreditCard" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Vector" />
-      <item index="4" class="java.lang.String" itemvalue="Python.SequenceIterator" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests for TestProgression.TestProgression.test_print_progression" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests for TestAP.TestArithmeticProgression.test_print_progression" />
+      <item index="2" class="java.lang.String" itemvalue="Python.ArithmeticProgression" />
+      <item index="3" class="java.lang.String" itemvalue="Python.GeometricProgression" />
+      <item index="4" class="java.lang.String" itemvalue="Python.FibonacciProgression" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.SequenceIterator" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Vector" />
-        <item index="2" class="java.lang.String" itemvalue="Python.TestCaseCreditCard" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CreditCard" />
-        <item index="4" class="java.lang.String" itemvalue="Python.creativity_C1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.FibonacciProgression" />
+        <item index="1" class="java.lang.String" itemvalue="Python.GeometricProgression" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ArithmeticProgression" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests for TestProgression.TestProgression.test_print_progression" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for TestAP.TestArithmeticProgression.test_print_progression" />
       </list>
     </recent_temporary>
   </component>
@@ -348,6 +418,38 @@
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_TestAP_TestArithmeticProgression_test_print_progression - 2017.04.24 at 23h 20m 32s.xml">
+      <configuration name="Unittests for TestAP.TestArithmeticProgression.test_print_progression" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestAP_TestArithmeticProgression_test_print_progression - 2017.04.24 at 23h 21m 13s.xml">
+      <configuration name="Unittests for TestAP.TestArithmeticProgression.test_print_progression" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestProgression_TestProgression_test_print_progression - 2017.04.24 at 23h 01m 44s.xml">
+      <configuration name="Unittests for TestProgression.TestProgression.test_print_progression" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestProgression_TestProgression_test_print_progression - 2017.04.24 at 23h 22m 19s.xml">
+      <configuration name="Unittests for TestProgression.TestProgression.test_print_progression" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestProgression_TestProgression_test_print_progression - 2017.04.24 at 23h 22m 35s.xml">
+      <configuration name="Unittests for TestProgression.TestProgression.test_print_progression" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestProgression_TestProgression_test_print_progression - 2017.04.24 at 23h 28m 08s.xml">
+      <configuration name="Unittests for TestProgression.TestProgression.test_print_progression" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestProgression_TestProgression_test_print_progression - 2017.04.24 at 23h 28m 13s.xml">
+      <configuration name="Unittests for TestProgression.TestProgression.test_print_progression" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestProgression_TestProgression_test_print_progression - 2017.04.24 at 23h 28m 28s.xml">
+      <configuration name="Unittests for TestProgression.TestProgression.test_print_progression" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestProgression_TestProgression_test_print_progression - 2017.04.24 at 23h 28m 47s.xml">
+      <configuration name="Unittests for TestProgression.TestProgression.test_print_progression" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_TestProgression_TestProgression_test_print_progression - 2017.04.24 at 23h 28m 57s.xml">
+      <configuration name="Unittests for TestProgression.TestProgression.test_print_progression" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -358,48 +460,28 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="771" y="23" width="669" height="781" extended-state="0" />
+    <frame x="87" y="23" width="1353" height="781" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24919094" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24907613" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.43117976" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946298" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32510886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35994196" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35955057" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39912918" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32656023" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946298" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3280116" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24974093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39912918" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -414,14 +496,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.1/python_stubs/776880377/builtins.py">
+    <entry file="file://$PROJECT_DIR$/TestCaseCreditCard.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66120">
-          <caret line="4408" column="12" lean-forward="true" selection-start-line="4408" selection-start-column="12" selection-end-line="4408" selection-end-column="12" />
+        <state relative-caret-position="345">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestPredatoryCCClass.py" />
+    <entry file="file://$PROJECT_DIR$/SequenceIterator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RangeImplement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.1/python_stubs/776880377/builtins.py" />
     <entry file="file://$PROJECT_DIR$/reinforcement.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -433,9 +533,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
           <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding>
-            <marker date="1491719145000" expanded="true" signature="2446:2471" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,17 +554,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="41" lean-forward="true" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding>
-            <marker date="1491935389000" expanded="true" signature="13:1130" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="68:144" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="168:244" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="284:359" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="393:461" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="492:757" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="787:897" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="927:1005" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="1029:1130" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -482,9 +569,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
           <caret line="154" column="0" lean-forward="true" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding>
-            <marker date="1491719145000" expanded="true" signature="2446:2471" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -506,9 +590,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2535">
           <caret line="169" column="11" lean-forward="true" selection-start-line="169" selection-start-column="11" selection-end-line="169" selection-end-column="11" />
-          <folding>
-            <marker date="1491719145000" expanded="true" signature="2446:2471" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -523,9 +604,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2340">
           <caret line="156" column="0" lean-forward="true" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding>
-            <marker date="1491719145000" expanded="true" signature="2446:2471" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,9 +618,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="96" column="20" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-          <folding>
-            <marker date="1491719145000" expanded="true" signature="2446:2471" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -564,9 +639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="96" column="14" lean-forward="false" selection-start-line="96" selection-start-column="14" selection-end-line="96" selection-end-column="14" />
-          <folding>
-            <marker date="1491719145000" expanded="true" signature="2446:2471" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -581,20 +653,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1305">
           <caret line="87" column="25" lean-forward="false" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
-          <folding>
-            <marker date="1491719145000" expanded="true" signature="2446:2471" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/creativity.py" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/random.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10646">
-          <caret line="722" column="0" lean-forward="false" selection-start-line="722" selection-start-column="0" selection-end-line="722" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/random.py" />
     <entry file="file://$PROJECT_DIR$/temp.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
@@ -602,20 +665,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CreditCard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="33" selection-end-line="48" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/creativity_C1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2310">
           <caret line="154" column="0" lean-forward="false" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-          <folding>
-            <marker date="1491719145000" expanded="true" signature="2446:2471" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,51 +679,168 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestCaseCreditCard.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Vector.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
           <caret line="44" column="12" lean-forward="true" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="12" />
-          <folding>
-            <marker date="1491935389000" expanded="true" signature="13:1130" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="68:144" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="168:244" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="284:359" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="393:461" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="492:757" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="787:897" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="927:1005" ph="..." />
-            <marker date="1491935389000" expanded="true" signature="1029:1130" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.1/python_stubs/776880377/builtins.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.1/python_stubs/776880377/builtins.py" />
+    <entry file="file://$PROJECT_DIR$/RangeImplement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6432">
-          <caret line="4408" column="12" lean-forward="false" selection-start-line="4408" selection-start-column="12" selection-end-line="4408" selection-end-column="12" />
+        <state relative-caret-position="300">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SequenceIterator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="405">
           <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RangeImplement.py">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestPredatoryCCClass.py" />
+    <entry file="file://$PROJECT_DIR$/.idea/DSAinPython3.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PredatoryCreditCard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PredatoryCreditCard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCaseCreditCard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37">
+          <caret line="3" column="68" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestPredatoryCC.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="18" column="54" lean-forward="false" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CreditCard.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="51" column="37" lean-forward="false" selection-start-line="51" selection-start-column="37" selection-end-line="51" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Progressions/TestAP.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="70" lean-forward="false" selection-start-line="6" selection-start-column="70" selection-end-line="6" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Progressions/TestProgression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Progressions/Progression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Progressions/ArithmeticProgression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Progressions/GeometricProgression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="23" lean-forward="false" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Progressions/FibonacciProgression.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="27" lean-forward="false" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
           <folding />
         </state>
       </provider>
